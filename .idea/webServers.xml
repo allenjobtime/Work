@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ae365c73-e156-47d3-9190-bf15fba2d6f0" name="publish" url="http://students.dsu.edu/dsu/allen.aldrich">
+        <fileTransfer accessType="FTPS" host="students.dsu.edu" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
