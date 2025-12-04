@@ -4,19 +4,26 @@ let inputfile = "output.xlsx";
 let outputfile = "htmltable.html";
 let style = `
 <style>
+    h1{
+        text-align: left;
+        font-size: 30pt;
+        color: #003552;
+        font-family: Arial, sans-serif;
+        background-color: white;
+    }
     body {
-        background-color: #009dd1;
+        background-color: #009dd1;;
     }
     table {
         background-color: white;
         border-collapse: collapse; 
         width: 100%;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Arial, sans-serif;
     }
     th, td {
         background-color: white;
-        border: 1px solid #333; 
-        padding: 8px;
+        border: 1px solid #000000; 
+        padding: 10px;
         text-align: left;
         color: #003552;
     }
@@ -98,6 +105,7 @@ const roomcolumn = 0;
 <head>
     <meta charset="UTF-8">
     <title>25Live Room Reservations</title>
+    <h1><img src="DSU_UniversityLogo_Icon_Primary.png" height="100px" alt="DSU Logo">DSU Room Reservations</h1>
     ${style}
 </head>
 <body>
